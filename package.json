@@ -1,6 +1,0 @@
-{
-  "scripts": {
-    "create": "npx yogui",
-    "postcreate": "rm -rf .template && rm -rf .git && rm .yoguirc && rm package.json"
-  }
-}
