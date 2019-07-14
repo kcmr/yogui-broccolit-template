@@ -2,7 +2,7 @@
   "broccolit-component": {
     "templates": ".template",
     "fileNameReplacement": ["component", "{{componentName}}"],
-    "dest": "{{componentName}}",
+    "dest": ".",
     "questions": [
       {
         "type": "input",
