@@ -1,0 +1,14 @@
+{
+  "broccolit-component": {
+    "templates": ".template",
+    "fileNameReplacement": ["component", "{{componentName}}"],
+    "dest": "{{componentName}}",
+    "questions": [
+      {
+        "type": "input",
+        "name": "componentName",
+        "message": "Component name without extension (.js by default)"
+      }
+    ]
+  }
+}
